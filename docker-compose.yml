@@ -9,4 +9,4 @@ services:
       - "80:80"
     restart: always
     volumes:
-      - /home/luis/www:/var/www/html/
+      - /var/www/html:/var/www/html/
