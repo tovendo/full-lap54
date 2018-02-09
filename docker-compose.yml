@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  full-lap54:
+    build: .
+    image: full-lap54:1.0
+    container_name: full-lap54
+    ports:
+      - "80:80"
+    restart: always
+    volumes:
+      - /home/luis/www:/var/www/html/
